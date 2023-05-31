@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "FBA7BF0E-B95D-46BB-8E53-9EEC8E2494CC"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DAD03703-10B5-4EC5-837E-74598E257DE0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cryptobox/core/test.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "149"
+            endingLineNumber = "149"
+            landmarkName = "DGHV_decrypt_2(ciphertext, prikey)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B62B9267-1350-4EC2-92B8-134C9EB0F169"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cryptobox/core/filesource.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "173"
+            endingLineNumber = "173"
+            landmarkName = "read_prikey(prikey, prikey_filename)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "22E309E9-8E57-46BC-8E28-C715E7E2C225"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cryptobox/core/filesource.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "215"
+            endingLineNumber = "215"
+            landmarkName = "read_prikey(prikey, prikey_filename)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "22E309E9-8E57-46BC-8E28-C715E7E2C225 - d4950e5b430f9d88"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "read_prikey"
+                  moduleName = "second_try"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liangyinqi/Desktop/xcode/second_try/cryptobox/core/filesource.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "214"
+                  endingLineNumber = "214"
+                  offsetFromSymbolStart = "656">
+               </Location>
+               <Location
+                  uuid = "22E309E9-8E57-46BC-8E28-C715E7E2C225 - d4950e5b430f9da9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "read_prikey"
+                  moduleName = "second_try"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liangyinqi/Desktop/xcode/second_try/cryptobox/core/filesource.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "215"
+                  endingLineNumber = "215"
+                  offsetFromSymbolStart = "664">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F6D44160-1BC4-46F9-9860-16A62E0D66FB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cryptobox/core/filesource.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "199"
+            endingLineNumber = "199"
+            landmarkName = "read_prikey(prikey, prikey_filename)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "F6D44160-1BC4-46F9-9860-16A62E0D66FB - d4950e5b430e6398"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "read_prikey"
+                  moduleName = "second_try"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liangyinqi/Desktop/xcode/second_try/cryptobox/core/filesource.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "198"
+                  endingLineNumber = "198"
+                  offsetFromSymbolStart = "400">
+               </Location>
+               <Location
+                  uuid = "F6D44160-1BC4-46F9-9860-16A62E0D66FB - d4950e5b430e63b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "read_prikey"
+                  moduleName = "second_try"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liangyinqi/Desktop/xcode/second_try/cryptobox/core/filesource.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "199"
+                  endingLineNumber = "199"
+                  offsetFromSymbolStart = "408">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3723167D-A079-44F2-A9C2-FA526FE1A940"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cryptobox/core/filesource.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
+            landmarkName = "read_prikey(prikey, prikey_filename)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

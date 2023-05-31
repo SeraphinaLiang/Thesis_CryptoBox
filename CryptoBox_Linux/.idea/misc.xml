@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/file/00110011.txt" />
+    <file url="file://$PROJECT_DIR$/file/10011001.txt" />
+    <file url="file://$PROJECT_DIR$/file/10111100.txt" />
+    <file url="file://$PROJECT_DIR$/file/encrypted_file/00110011.txt" />
+    <file url="file://$PROJECT_DIR$/file/encrypted_file/10011001.txt" />
+    <file url="file://$PROJECT_DIR$/file/encrypted_file/10111100.txt" />
+    <file url="file://$PROJECT_DIR$/file/encrypted_id/00110011.txt" />
+    <file url="file://$PROJECT_DIR$/file/encrypted_id/10011001.txt" />
+    <file url="file://$PROJECT_DIR$/file/encrypted_id/10111100.txt" />
+    <file url="file://$PROJECT_DIR$/file/id_en_00110011.txt" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.8" project-jdk-type="Python SDK" />
+  <component name="PyCharmProfessionalAdvertiser">
+    <option name="shown" value="true" />
+  </component>
+</project>

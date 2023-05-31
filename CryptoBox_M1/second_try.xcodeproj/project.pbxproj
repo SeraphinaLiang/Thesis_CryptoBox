@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A78602582A012BC10008E987 /* websockets.c in Sources */ = {isa = PBXBuildFile; fileRef = A786021B2A012BC00008E987 /* websockets.c */; };
+		A78602592A012BC10008E987 /* base64_code.c in Sources */ = {isa = PBXBuildFile; fileRef = A786021D2A012BC00008E987 /* base64_code.c */; };
+		A786025A2A012BC10008E987 /* secstg.c in Sources */ = {isa = PBXBuildFile; fileRef = A786021E2A012BC10008E987 /* secstg.c */; };
+		A786025B2A012BC10008E987 /* fio_tls_openssl.c in Sources */ = {isa = PBXBuildFile; fileRef = A786021F2A012BC10008E987 /* fio_tls_openssl.c */; };
+		A786025C2A012BC10008E987 /* http1.c in Sources */ = {isa = PBXBuildFile; fileRef = A78602232A012BC10008E987 /* http1.c */; };
+		A786025D2A012BC10008E987 /* gen_random.c in Sources */ = {isa = PBXBuildFile; fileRef = A78602272A012BC10008E987 /* gen_random.c */; };
+		A786025E2A012BC10008E987 /* fiobj_str.c in Sources */ = {isa = PBXBuildFile; fileRef = A78602292A012BC10008E987 /* fiobj_str.c */; };
+		A786025F2A012BC10008E987 /* fiobj_data.c in Sources */ = {isa = PBXBuildFile; fileRef = A786022A2A012BC10008E987 /* fiobj_data.c */; };
+		A78602602A012BC10008E987 /* fiobj_ary.c in Sources */ = {isa = PBXBuildFile; fileRef = A786022B2A012BC10008E987 /* fiobj_ary.c */; };
+		A78602612A012BC10008E987 /* api.c in Sources */ = {isa = PBXBuildFile; fileRef = A786022E2A012BC10008E987 /* api.c */; };
+		A78602622A012BC10008E987 /* fio_siphash.c in Sources */ = {isa = PBXBuildFile; fileRef = A786022F2A012BC10008E987 /* fio_siphash.c */; };
+		A78602632A012BC10008E987 /* filesource.c in Sources */ = {isa = PBXBuildFile; fileRef = A78602302A012BC10008E987 /* filesource.c */; };
+		A78602642A012BC10008E987 /* key.c in Sources */ = {isa = PBXBuildFile; fileRef = A78602312A012BC10008E987 /* key.c */; };
+		A78602652A012BC10008E987 /* squa_dec.c in Sources */ = {isa = PBXBuildFile; fileRef = A78602332A012BC10008E987 /* squa_dec.c */; };
+		A78602662A012BC10008E987 /* ciphertext.c in Sources */ = {isa = PBXBuildFile; fileRef = A78602352A012BC10008E987 /* ciphertext.c */; };
+		A78602672A012BC10008E987 /* fiobj_hash.c in Sources */ = {isa = PBXBuildFile; fileRef = A78602382A012BC10008E987 /* fiobj_hash.c */; };
+		A78602682A012BC10008E987 /* format.c in Sources */ = {isa = PBXBuildFile; fileRef = A78602392A012BC10008E987 /* format.c */; };
+		A78602692A012BC10008E987 /* test.c in Sources */ = {isa = PBXBuildFile; fileRef = A786023A2A012BC10008E987 /* test.c */; };
+		A786026A2A012BC10008E987 /* eval_oper.c in Sources */ = {isa = PBXBuildFile; fileRef = A786023B2A012BC10008E987 /* eval_oper.c */; };
+		A786026B2A012BC10008E987 /* redis_engine.c in Sources */ = {isa = PBXBuildFile; fileRef = A786023F2A012BC10008E987 /* redis_engine.c */; };
+		A786026C2A012BC10008E987 /* fio.c in Sources */ = {isa = PBXBuildFile; fileRef = A78602402A012BC10008E987 /* fio.c */; };
+		A786026D2A012BC10008E987 /* bootstrapping.c in Sources */ = {isa = PBXBuildFile; fileRef = A78602432A012BC10008E987 /* bootstrapping.c */; };
+		A786026E2A012BC10008E987 /* http_internal.c in Sources */ = {isa = PBXBuildFile; fileRef = A78602462A012BC10008E987 /* http_internal.c */; };
+		A786026F2A012BC10008E987 /* fiobj_numbers.c in Sources */ = {isa = PBXBuildFile; fileRef = A78602472A012BC10008E987 /* fiobj_numbers.c */; };
+		A78602702A012BC10008E987 /* fio_cli.c in Sources */ = {isa = PBXBuildFile; fileRef = A78602482A012BC10008E987 /* fio_cli.c */; };
+		A78602712A012BC10008E987 /* fio_tls_missing.c in Sources */ = {isa = PBXBuildFile; fileRef = A786024B2A012BC10008E987 /* fio_tls_missing.c */; };
+		A78602722A012BC10008E987 /* fiobject.c in Sources */ = {isa = PBXBuildFile; fileRef = A786024D2A012BC10008E987 /* fiobject.c */; };
+		A78602732A012BC10008E987 /* crypto.c in Sources */ = {isa = PBXBuildFile; fileRef = A78602502A012BC10008E987 /* crypto.c */; };
+		A78602742A012BC10008E987 /* fiobj_json.c in Sources */ = {isa = PBXBuildFile; fileRef = A78602512A012BC10008E987 /* fiobj_json.c */; };
+		A78602752A012BC10008E987 /* gen_key.c in Sources */ = {isa = PBXBuildFile; fileRef = A78602532A012BC10008E987 /* gen_key.c */; };
+		A78602762A012BC10008E987 /* fiobj_mustache.c in Sources */ = {isa = PBXBuildFile; fileRef = A78602552A012BC10008E987 /* fiobj_mustache.c */; };
+		A78602772A012BC10008E987 /* http.c in Sources */ = {isa = PBXBuildFile; fileRef = A78602572A012BC10008E987 /* http.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A786020F2A0129EB0008E987 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A78602112A0129EB0008E987 /* second_try */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = second_try; sourceTree = BUILT_PRODUCTS_DIR; };
+		A786021B2A012BC00008E987 /* websockets.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = websockets.c; sourceTree = "<group>"; };
+		A786021C2A012BC00008E987 /* fiobj_hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fiobj_hash.h; sourceTree = "<group>"; };
+		A786021D2A012BC00008E987 /* base64_code.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base64_code.c; sourceTree = "<group>"; };
+		A786021E2A012BC10008E987 /* secstg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = secstg.c; sourceTree = "<group>"; };
+		A786021F2A012BC10008E987 /* fio_tls_openssl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fio_tls_openssl.c; sourceTree = "<group>"; };
+		A78602202A012BC10008E987 /* fio_siphash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fio_siphash.h; sourceTree = "<group>"; };
+		A78602212A012BC10008E987 /* hpack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hpack.h; sourceTree = "<group>"; };
+		A78602222A012BC10008E987 /* http_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http_internal.h; sourceTree = "<group>"; };
+		A78602232A012BC10008E987 /* http1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = http1.c; sourceTree = "<group>"; };
+		A78602242A012BC10008E987 /* redis_engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = redis_engine.h; sourceTree = "<group>"; };
+		A78602252A012BC10008E987 /* fio_json_parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fio_json_parser.h; sourceTree = "<group>"; };
+		A78602262A012BC10008E987 /* http_mime_parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http_mime_parser.h; sourceTree = "<group>"; };
+		A78602272A012BC10008E987 /* gen_random.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gen_random.c; sourceTree = "<group>"; };
+		A78602282A012BC10008E987 /* websockets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = websockets.h; sourceTree = "<group>"; };
+		A78602292A012BC10008E987 /* fiobj_str.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fiobj_str.c; sourceTree = "<group>"; };
+		A786022A2A012BC10008E987 /* fiobj_data.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fiobj_data.c; sourceTree = "<group>"; };
+		A786022B2A012BC10008E987 /* fiobj_ary.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fiobj_ary.c; sourceTree = "<group>"; };
+		A786022C2A012BC10008E987 /* fiobj_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fiobj_data.h; sourceTree = "<group>"; };
+		A786022D2A012BC10008E987 /* fiobj_ary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fiobj_ary.h; sourceTree = "<group>"; };
+		A786022E2A012BC10008E987 /* api.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = api.c; sourceTree = "<group>"; };
+		A786022F2A012BC10008E987 /* fio_siphash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fio_siphash.c; sourceTree = "<group>"; };
+		A78602302A012BC10008E987 /* filesource.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = filesource.c; sourceTree = "<group>"; };
+		A78602312A012BC10008E987 /* key.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = key.c; sourceTree = "<group>"; };
+		A78602322A012BC10008E987 /* http1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http1.h; sourceTree = "<group>"; };
+		A78602332A012BC10008E987 /* squa_dec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = squa_dec.c; sourceTree = "<group>"; };
+		A78602342A012BC10008E987 /* fiobj_mustache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fiobj_mustache.h; sourceTree = "<group>"; };
+		A78602352A012BC10008E987 /* ciphertext.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ciphertext.c; sourceTree = "<group>"; };
+		A78602362A012BC10008E987 /* mustache_parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mustache_parser.h; sourceTree = "<group>"; };
+		A78602372A012BC10008E987 /* fio_tls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fio_tls.h; sourceTree = "<group>"; };
+		A78602382A012BC10008E987 /* fiobj_hash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fiobj_hash.c; sourceTree = "<group>"; };
+		A78602392A012BC10008E987 /* format.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = format.c; sourceTree = "<group>"; };
+		A786023A2A012BC10008E987 /* test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
+		A786023B2A012BC10008E987 /* eval_oper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = eval_oper.c; sourceTree = "<group>"; };
+		A786023C2A012BC10008E987 /* http1_parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http1_parser.h; sourceTree = "<group>"; };
+		A786023D2A012BC10008E987 /* fio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fio.h; sourceTree = "<group>"; };
+		A786023E2A012BC10008E987 /* fiobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fiobject.h; sourceTree = "<group>"; };
+		A786023F2A012BC10008E987 /* redis_engine.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = redis_engine.c; sourceTree = "<group>"; };
+		A78602402A012BC10008E987 /* fio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fio.c; sourceTree = "<group>"; };
+		A78602412A012BC10008E987 /* fio_cli.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fio_cli.h; sourceTree = "<group>"; };
+		A78602422A012BC10008E987 /* dghv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dghv.h; sourceTree = "<group>"; };
+		A78602432A012BC10008E987 /* bootstrapping.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bootstrapping.c; sourceTree = "<group>"; };
+		A78602442A012BC10008E987 /* fiobj_str.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fiobj_str.h; sourceTree = "<group>"; };
+		A78602452A012BC10008E987 /* fiobj_json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fiobj_json.h; sourceTree = "<group>"; };
+		A78602462A012BC10008E987 /* http_internal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = http_internal.c; sourceTree = "<group>"; };
+		A78602472A012BC10008E987 /* fiobj_numbers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fiobj_numbers.c; sourceTree = "<group>"; };
+		A78602482A012BC10008E987 /* fio_cli.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fio_cli.c; sourceTree = "<group>"; };
+		A78602492A012BC10008E987 /* fiobj4fio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fiobj4fio.h; sourceTree = "<group>"; };
+		A786024A2A012BC10008E987 /* resp_parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resp_parser.h; sourceTree = "<group>"; };
+		A786024B2A012BC10008E987 /* fio_tls_missing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fio_tls_missing.c; sourceTree = "<group>"; };
+		A786024C2A012BC10008E987 /* http.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http.h; sourceTree = "<group>"; };
+		A786024D2A012BC10008E987 /* fiobject.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fiobject.c; sourceTree = "<group>"; };
+		A786024E2A012BC10008E987 /* fiobj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fiobj.h; sourceTree = "<group>"; };
+		A786024F2A012BC10008E987 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		A78602502A012BC10008E987 /* crypto.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crypto.c; sourceTree = "<group>"; };
+		A78602512A012BC10008E987 /* fiobj_json.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fiobj_json.c; sourceTree = "<group>"; };
+		A78602522A012BC10008E987 /* websocket_parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = websocket_parser.h; sourceTree = "<group>"; };
+		A78602532A012BC10008E987 /* gen_key.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gen_key.c; sourceTree = "<group>"; };
+		A78602542A012BC10008E987 /* fiobj_numbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fiobj_numbers.h; sourceTree = "<group>"; };
+		A78602552A012BC10008E987 /* fiobj_mustache.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fiobj_mustache.c; sourceTree = "<group>"; };
+		A78602562A012BC10008E987 /* fio_tmpfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fio_tmpfile.h; sourceTree = "<group>"; };
+		A78602572A012BC10008E987 /* http.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = http.c; sourceTree = "<group>"; };
+		A78602882A013AA10008E987 /* decrypt_result */ = {isa = PBXFileReference; lastKnownFileType = folder; path = decrypt_result; sourceTree = "<group>"; };
+		A78602892A013AA10008E987 /* key_setting */ = {isa = PBXFileReference; lastKnownFileType = folder; path = key_setting; sourceTree = "<group>"; };
+		A786028A2A013AA10008E987 /* ctext */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ctext; sourceTree = "<group>"; };
+		A786028B2A013AA10008E987 /* decrypt_text */ = {isa = PBXFileReference; lastKnownFileType = folder; path = decrypt_text; sourceTree = "<group>"; };
+		A786028C2A013AA10008E987 /* file */ = {isa = PBXFileReference; lastKnownFileType = folder; path = file; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A786020E2A0129EB0008E987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A78602082A0129EB0008E987 = {
+			isa = PBXGroup;
+			children = (
+				A78602132A0129EB0008E987 /* cryptobox */,
+				A78602122A0129EB0008E987 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A78602122A0129EB0008E987 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A78602112A0129EB0008E987 /* second_try */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A78602132A0129EB0008E987 /* cryptobox */ = {
+			isa = PBXGroup;
+			children = (
+				A786028A2A013AA10008E987 /* ctext */,
+				A78602882A013AA10008E987 /* decrypt_result */,
+				A786028B2A013AA10008E987 /* decrypt_text */,
+				A786028C2A013AA10008E987 /* file */,
+				A78602892A013AA10008E987 /* key_setting */,
+				A786027A2A0134B60008E987 /* core */,
+			);
+			path = cryptobox;
+			sourceTree = "<group>";
+		};
+		A786027A2A0134B60008E987 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				A78602302A012BC10008E987 /* filesource.c */,
+				A78602482A012BC10008E987 /* fio_cli.c */,
+				A78602412A012BC10008E987 /* fio_cli.h */,
+				A78602252A012BC10008E987 /* fio_json_parser.h */,
+				A786022F2A012BC10008E987 /* fio_siphash.c */,
+				A78602202A012BC10008E987 /* fio_siphash.h */,
+				A786024B2A012BC10008E987 /* fio_tls_missing.c */,
+				A786021F2A012BC10008E987 /* fio_tls_openssl.c */,
+				A78602402A012BC10008E987 /* fio.c */,
+				A786023D2A012BC10008E987 /* fio.h */,
+				A786022B2A012BC10008E987 /* fiobj_ary.c */,
+				A786022D2A012BC10008E987 /* fiobj_ary.h */,
+				A786022A2A012BC10008E987 /* fiobj_data.c */,
+				A786022C2A012BC10008E987 /* fiobj_data.h */,
+				A78602382A012BC10008E987 /* fiobj_hash.c */,
+				A786021C2A012BC00008E987 /* fiobj_hash.h */,
+				A78602512A012BC10008E987 /* fiobj_json.c */,
+				A78602452A012BC10008E987 /* fiobj_json.h */,
+				A78602552A012BC10008E987 /* fiobj_mustache.c */,
+				A78602342A012BC10008E987 /* fiobj_mustache.h */,
+				A78602372A012BC10008E987 /* fio_tls.h */,
+				A78602562A012BC10008E987 /* fio_tmpfile.h */,
+				A786022E2A012BC10008E987 /* api.c */,
+				A786021D2A012BC00008E987 /* base64_code.c */,
+				A78602432A012BC10008E987 /* bootstrapping.c */,
+				A78602352A012BC10008E987 /* ciphertext.c */,
+				A78602502A012BC10008E987 /* crypto.c */,
+				A78602472A012BC10008E987 /* fiobj_numbers.c */,
+				A78602542A012BC10008E987 /* fiobj_numbers.h */,
+				A78602292A012BC10008E987 /* fiobj_str.c */,
+				A78602442A012BC10008E987 /* fiobj_str.h */,
+				A786024E2A012BC10008E987 /* fiobj.h */,
+				A78602492A012BC10008E987 /* fiobj4fio.h */,
+				A786024D2A012BC10008E987 /* fiobject.c */,
+				A786023E2A012BC10008E987 /* fiobject.h */,
+				A78602392A012BC10008E987 /* format.c */,
+				A78602532A012BC10008E987 /* gen_key.c */,
+				A78602272A012BC10008E987 /* gen_random.c */,
+				A78602212A012BC10008E987 /* hpack.h */,
+				A78602462A012BC10008E987 /* http_internal.c */,
+				A78602222A012BC10008E987 /* http_internal.h */,
+				A78602262A012BC10008E987 /* http_mime_parser.h */,
+				A78602572A012BC10008E987 /* http.c */,
+				A786024C2A012BC10008E987 /* http.h */,
+				A786023C2A012BC10008E987 /* http1_parser.h */,
+				A78602232A012BC10008E987 /* http1.c */,
+				A78602322A012BC10008E987 /* http1.h */,
+				A78602312A012BC10008E987 /* key.c */,
+				A78602362A012BC10008E987 /* mustache_parser.h */,
+				A786023F2A012BC10008E987 /* redis_engine.c */,
+				A78602242A012BC10008E987 /* redis_engine.h */,
+				A786024A2A012BC10008E987 /* resp_parser.h */,
+				A786021E2A012BC10008E987 /* secstg.c */,
+				A78602332A012BC10008E987 /* squa_dec.c */,
+				A786023A2A012BC10008E987 /* test.c */,
+				A78602282A012BC10008E987 /* websockets.h */,
+				A786024F2A012BC10008E987 /* test.h */,
+				A78602522A012BC10008E987 /* websocket_parser.h */,
+				A786021B2A012BC00008E987 /* websockets.c */,
+				A78602422A012BC10008E987 /* dghv.h */,
+				A786023B2A012BC10008E987 /* eval_oper.c */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A78602102A0129EB0008E987 /* second_try */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A78602182A0129EB0008E987 /* Build configuration list for PBXNativeTarget "second_try" */;
+			buildPhases = (
+				A786020D2A0129EB0008E987 /* Sources */,
+				A786020E2A0129EB0008E987 /* Frameworks */,
+				A786020F2A0129EB0008E987 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = second_try;
+			productName = second_try;
+			productReference = A78602112A0129EB0008E987 /* second_try */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A78602092A0129EB0008E987 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A78602102A0129EB0008E987 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = A786020C2A0129EB0008E987 /* Build configuration list for PBXProject "second_try" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A78602082A0129EB0008E987;
+			productRefGroup = A78602122A0129EB0008E987 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A78602102A0129EB0008E987 /* second_try */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A786020D2A0129EB0008E987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78602622A012BC10008E987 /* fio_siphash.c in Sources */,
+				A786025F2A012BC10008E987 /* fiobj_data.c in Sources */,
+				A78602732A012BC10008E987 /* crypto.c in Sources */,
+				A78602602A012BC10008E987 /* fiobj_ary.c in Sources */,
+				A78602692A012BC10008E987 /* test.c in Sources */,
+				A78602612A012BC10008E987 /* api.c in Sources */,
+				A78602712A012BC10008E987 /* fio_tls_missing.c in Sources */,
+				A78602682A012BC10008E987 /* format.c in Sources */,
+				A78602642A012BC10008E987 /* key.c in Sources */,
+				A786026E2A012BC10008E987 /* http_internal.c in Sources */,
+				A786026B2A012BC10008E987 /* redis_engine.c in Sources */,
+				A786025A2A012BC10008E987 /* secstg.c in Sources */,
+				A786025B2A012BC10008E987 /* fio_tls_openssl.c in Sources */,
+				A78602762A012BC10008E987 /* fiobj_mustache.c in Sources */,
+				A78602702A012BC10008E987 /* fio_cli.c in Sources */,
+				A78602582A012BC10008E987 /* websockets.c in Sources */,
+				A786025E2A012BC10008E987 /* fiobj_str.c in Sources */,
+				A78602752A012BC10008E987 /* gen_key.c in Sources */,
+				A786026F2A012BC10008E987 /* fiobj_numbers.c in Sources */,
+				A78602662A012BC10008E987 /* ciphertext.c in Sources */,
+				A78602672A012BC10008E987 /* fiobj_hash.c in Sources */,
+				A786025C2A012BC10008E987 /* http1.c in Sources */,
+				A786026C2A012BC10008E987 /* fio.c in Sources */,
+				A78602772A012BC10008E987 /* http.c in Sources */,
+				A786026A2A012BC10008E987 /* eval_oper.c in Sources */,
+				A78602652A012BC10008E987 /* squa_dec.c in Sources */,
+				A78602742A012BC10008E987 /* fiobj_json.c in Sources */,
+				A78602592A012BC10008E987 /* base64_code.c in Sources */,
+				A78602632A012BC10008E987 /* filesource.c in Sources */,
+				A786026D2A012BC10008E987 /* bootstrapping.c in Sources */,
+				A786025D2A012BC10008E987 /* gen_random.c in Sources */,
+				A78602722A012BC10008E987 /* fiobject.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A78602162A0129EB0008E987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A78602172A0129EB0008E987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A78602192A0129EB0008E987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				"HEADER_SEARCH_PATHS[arch=*]" = "/opt/homebrew/Cellar/gmp/**";
+				LIBRARY_SEARCH_PATHS = "/opt/homebrew/Cellar/gmp/**";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-lgmp",
+					"-lm",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A786021A2A0129EB0008E987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				"HEADER_SEARCH_PATHS[arch=*]" = "/opt/homebrew/Cellar/gmp/**";
+				LIBRARY_SEARCH_PATHS = "/opt/homebrew/Cellar/gmp/**";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-lgmp",
+					"-lm",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A786020C2A0129EB0008E987 /* Build configuration list for PBXProject "second_try" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78602162A0129EB0008E987 /* Debug */,
+				A78602172A0129EB0008E987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A78602182A0129EB0008E987 /* Build configuration list for PBXNativeTarget "second_try" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78602192A0129EB0008E987 /* Debug */,
+				A786021A2A0129EB0008E987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A78602092A0129EB0008E987 /* Project object */;
+}
