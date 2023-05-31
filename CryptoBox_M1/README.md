@@ -13,6 +13,11 @@ The Crypto Box is used together with an App https://github.com/SeraphinaLiang/th
 #### how to compile & run?
 follow the set up in the xcode file, build & run 
 
+#### basic requirements
+`gnu 11`
+`gmp 6.2.1_1`
+`c++ 11`
+
 #### the security parameter
 1. the set up of the security parameter in `'secstg.c'` could be changed and can also be verified by function `para_valid(para)`
 
